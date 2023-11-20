@@ -1,6 +1,7 @@
 package ru.netology.statistic;
 
 public class StatisticsService {
+
     public long findMax(long[] incomes) {
         long current_max_index = 0;
         long current_max = incomes[0];
@@ -10,3 +11,5 @@ public class StatisticsService {
         return current_max;
     }
 }
+
+
